@@ -1,7 +1,7 @@
 package filter
 
 import (
-	"github.com/selesy/go-html/node"
+	"github.com/selesy/go-robot/node"
 	"golang.org/x/net/html"
 	"golang.org/x/net/html/atom"
 )

@@ -1,7 +1,7 @@
 package scrape
 
 import (
-	"github.com/selesy/go-html/filter"
+	"github.com/selesy/go-robot/filter"
 	yhat "github.com/yhat/scrape"
 	"golang.org/x/net/html"
 )
