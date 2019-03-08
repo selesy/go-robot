@@ -20,3 +20,7 @@ func Find(node *html.Node, criterion ...filter.Criteria) (*html.Node, bool) {
 func FindAll(node *html.Node, criterion ...filter.Criteria) []*html.Node {
 	return yhat.FindAll(node, composite(criterion...))
 }
+
+func Text(node *html.Node) string {
+	return yhat.Text(node)
+}
